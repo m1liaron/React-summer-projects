@@ -1,6 +1,8 @@
 .container{
-    p{
-        font-size: 2rem;
+    .calculator{
+        background-color:#697eb887;
+        padding: 20px;
+        border-radius:5px;
     }
     .bmi{
         background-color: #2056ea;
@@ -10,5 +12,12 @@
         border-radius: 100%;
         display: table;
         padding: 20px;
+        margin-bottom: 10px;
+    }
+    .conclusion{
+        background-color: #697eb8;
+        padding: 10px;
+        margin: 10px;
+        border-radius:10px;
     }
 }

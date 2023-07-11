@@ -14,6 +14,9 @@ const NavBar = () => {
                 <li>
                     <Link to='/bmi'>BMI Calculator</Link>
                 </li>
+                <li>
+                    <Link to='/ticTacToe'>Tic-Tac-Toe</Link>
+                </li>
             </ul>
         </>
     )

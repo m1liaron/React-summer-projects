@@ -30,20 +30,25 @@ const Calculator = () => {
     }, [output]);
 
     return (
-            <div className="container">
-                <p>Weight: {weight} kg</p>
-                <input type="range" step="1"
-          min="40"
-          max="220" onChange={(e) => setWeight(e.target.value)}/>
-                <p>Height: {height} sm</p>
-                <input type="range" step="1"
-          min="140"
-          max="220" onChange={(e) => setHeight(e.target.value)}/>
-
-                <h4>Your BMI is</h4>
-            <div className="bmi">{output}</div>
-            <span>{text}</span>
-            
+        <div className="container">
+            <div className="calculator">
+                    <p>Weight: {weight} kg</p>
+                    <input type="range"
+                        step="1"
+                        min="40"
+                        max="220"
+                        onChange={(e) => setWeight(e.target.value)}
+                    />
+                    <p>Height: {height} sm</p>
+                    <input type="range" step="1"
+                            min="140"
+                            max="220"
+                            onChange={(e) => setHeight(e.target.value)}
+                    />
+                    <h4>Your BMI is</h4>
+                <div className="bmi">{output}</div>
+                <span className='conclusion'>{text}</span>
+            </div>
         </div>
     )
 }
