@@ -11,6 +11,9 @@ const NavBar = () => {
                 <li>
                     <Link to='/gh'>GitHub User Search</Link>
                 </li>
+                <li>
+                    <Link to='/bmi'>BMI Calculator</Link>
+                </li>
             </ul>
         </>
     )
